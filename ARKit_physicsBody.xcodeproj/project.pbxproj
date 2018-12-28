@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFA2EDBA1F6E099E006F49FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA2EDB91F6E099E006F49FF /* AppDelegate.swift */; };
+		FFA2EDBC1F6E099E006F49FF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA2EDBB1F6E099E006F49FF /* art.scnassets */; };
+		FFA2EDBE1F6E099E006F49FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA2EDBD1F6E099E006F49FF /* ViewController.swift */; };
+		FFA2EDC11F6E099E006F49FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA2EDBF1F6E099E006F49FF /* Main.storyboard */; };
+		FFA2EDC31F6E099E006F49FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA2EDC21F6E099E006F49FF /* Assets.xcassets */; };
+		FFA2EDC61F6E099E006F49FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA2EDC41F6E099E006F49FF /* LaunchScreen.storyboard */; };
+		FFA2EDCE1F6E0AB4006F49FF /* BoxNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA2EDCD1F6E0AB4006F49FF /* BoxNode.swift */; };
+		FFA2EDD01F6E0AC0006F49FF /* PlaneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA2EDCF1F6E0AC0006F49FF /* PlaneNode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFA2EDB61F6E099E006F49FF /* ARKit_physicsBody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKit_physicsBody.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA2EDB91F6E099E006F49FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFA2EDBB1F6E099E006F49FF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		FFA2EDBD1F6E099E006F49FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFA2EDC01F6E099E006F49FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFA2EDC21F6E099E006F49FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFA2EDC51F6E099E006F49FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFA2EDC71F6E099E006F49FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA2EDCD1F6E0AB4006F49FF /* BoxNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxNode.swift; sourceTree = "<group>"; };
+		FFA2EDCF1F6E0AC0006F49FF /* PlaneNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneNode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFA2EDB31F6E099E006F49FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFA2EDAD1F6E099E006F49FF = {
+			isa = PBXGroup;
+			children = (
+				FFA2EDB81F6E099E006F49FF /* ARKit_physicsBody */,
+				FFA2EDB71F6E099E006F49FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFA2EDB71F6E099E006F49FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA2EDB61F6E099E006F49FF /* ARKit_physicsBody.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA2EDB81F6E099E006F49FF /* ARKit_physicsBody */ = {
+			isa = PBXGroup;
+			children = (
+				FFA2EDB91F6E099E006F49FF /* AppDelegate.swift */,
+				FFA2EDBB1F6E099E006F49FF /* art.scnassets */,
+				FFA2EDBD1F6E099E006F49FF /* ViewController.swift */,
+				FFA2EDBF1F6E099E006F49FF /* Main.storyboard */,
+				FFA2EDCF1F6E0AC0006F49FF /* PlaneNode.swift */,
+				FFA2EDCD1F6E0AB4006F49FF /* BoxNode.swift */,
+				FFA2EDC21F6E099E006F49FF /* Assets.xcassets */,
+				FFA2EDC41F6E099E006F49FF /* LaunchScreen.storyboard */,
+				FFA2EDC71F6E099E006F49FF /* Info.plist */,
+			);
+			path = ARKit_physicsBody;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFA2EDB51F6E099E006F49FF /* ARKit_physicsBody */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA2EDCA1F6E099E006F49FF /* Build configuration list for PBXNativeTarget "ARKit_physicsBody" */;
+			buildPhases = (
+				FFA2EDB21F6E099E006F49FF /* Sources */,
+				FFA2EDB31F6E099E006F49FF /* Frameworks */,
+				FFA2EDB41F6E099E006F49FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKit_physicsBody;
+			productName = ARKit_physicsBody;
+			productReference = FFA2EDB61F6E099E006F49FF /* ARKit_physicsBody.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA2EDAE1F6E099E006F49FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "yoshiyuki oshige";
+				TargetAttributes = {
+					FFA2EDB51F6E099E006F49FF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFA2EDB11F6E099E006F49FF /* Build configuration list for PBXProject "ARKit_physicsBody" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFA2EDAD1F6E099E006F49FF;
+			productRefGroup = FFA2EDB71F6E099E006F49FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA2EDB51F6E099E006F49FF /* ARKit_physicsBody */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFA2EDB41F6E099E006F49FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA2EDBC1F6E099E006F49FF /* art.scnassets in Resources */,
+				FFA2EDC61F6E099E006F49FF /* LaunchScreen.storyboard in Resources */,
+				FFA2EDC31F6E099E006F49FF /* Assets.xcassets in Resources */,
+				FFA2EDC11F6E099E006F49FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA2EDB21F6E099E006F49FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA2EDD01F6E0AC0006F49FF /* PlaneNode.swift in Sources */,
+				FFA2EDBE1F6E099E006F49FF /* ViewController.swift in Sources */,
+				FFA2EDCE1F6E0AB4006F49FF /* BoxNode.swift in Sources */,
+				FFA2EDBA1F6E099E006F49FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFA2EDBF1F6E099E006F49FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA2EDC01F6E099E006F49FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFA2EDC41F6E099E006F49FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA2EDC51F6E099E006F49FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFA2EDC81F6E099E006F49FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFA2EDC91F6E099E006F49FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFA2EDCB1F6E099E006F49FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DBB9P46DP;
+				INFOPLIST_FILE = ARKit_physicsBody/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tksoft.arkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFA2EDCC1F6E099E006F49FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DBB9P46DP;
+				INFOPLIST_FILE = ARKit_physicsBody/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tksoft.arkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFA2EDB11F6E099E006F49FF /* Build configuration list for PBXProject "ARKit_physicsBody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA2EDC81F6E099E006F49FF /* Debug */,
+				FFA2EDC91F6E099E006F49FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA2EDCA1F6E099E006F49FF /* Build configuration list for PBXNativeTarget "ARKit_physicsBody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA2EDCB1F6E099E006F49FF /* Debug */,
+				FFA2EDCC1F6E099E006F49FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFA2EDAE1F6E099E006F49FF /* Project object */;
+}
